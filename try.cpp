@@ -119,6 +119,5 @@ int main()
     cout << "FIFO Page Faults: " << FIFO(pages, n, capacity) << endl;
     cout << "LFU Page Faults: " << LRU(pages, n, capacity) << endl;
     cout << "Optimal Page Faults: " << Optimal(pages, n, capacity) << endl;
-
     return 0;
 }
